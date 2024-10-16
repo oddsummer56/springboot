@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Greeting</title>
+</head>
+<body>
+    <h1>Greeting [[${nameStack.get(0).name}]]</h1>
+    
+    <ul>
+        <li th:each="p : ${nameStack}">
+            <span th:text="'Num: ' + ${p.num}"></span> - 
+            <span th:text="'Name: ' + ${p.name}"></span>
+        </li>
+    </ul>
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Num</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="p : ${nameStack}">
+                <td th:text="${p.num}"></td>
+                <td th:text="${#strings.capitalize(p.name)}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
