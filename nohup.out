@@ -1,0 +1,81 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-21T10:37:15.862+09:00  INFO 30118 --- [greeting] [           main] s.samdul.greeting.GreetingApplication    : Starting GreetingApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 30118 (/home/oddsummer/code/java/greeting/build/libs/greeting-0.0.1-SNAPSHOT.jar started by oddsummer in /home/oddsummer/code/java/greeting)
+2024-10-21T10:37:15.867+09:00  INFO 30118 --- [greeting] [           main] s.samdul.greeting.GreetingApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-21T10:37:17.587+09:00  INFO 30118 --- [greeting] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-21T10:37:17.613+09:00  INFO 30118 --- [greeting] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-21T10:37:17.614+09:00  INFO 30118 --- [greeting] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-21T10:37:17.696+09:00  INFO 30118 --- [greeting] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-21T10:37:17.698+09:00  INFO 30118 --- [greeting] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1748 ms
+2024-10-21T10:37:18.254+09:00  INFO 30118 --- [greeting] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-21T10:37:18.289+09:00  INFO 30118 --- [greeting] [           main] s.samdul.greeting.GreetingApplication    : Started GreetingApplication in 3.208 seconds (process running for 3.975)
+2024-10-21T10:37:19.261+09:00  INFO 30118 --- [greeting] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-21T10:37:19.261+09:00  INFO 30118 --- [greeting] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-21T10:37:19.264+09:00  INFO 30118 --- [greeting] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-21T10:42:41.751+09:00  INFO 36717 --- [greeting] [           main] s.samdul.greeting.GreetingApplication    : Starting GreetingApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 36717 (/home/oddsummer/code/java/greeting/build/libs/greeting-0.0.1-SNAPSHOT.jar started by oddsummer in /home/oddsummer/code/java/greeting)
+2024-10-21T10:42:41.757+09:00  INFO 36717 --- [greeting] [           main] s.samdul.greeting.GreetingApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-21T10:42:43.302+09:00  INFO 36717 --- [greeting] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-21T10:42:43.322+09:00  INFO 36717 --- [greeting] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-21T10:42:43.323+09:00  INFO 36717 --- [greeting] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-21T10:42:43.410+09:00  INFO 36717 --- [greeting] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-21T10:42:43.413+09:00  INFO 36717 --- [greeting] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1550 ms
+2024-10-21T10:42:43.623+09:00  INFO 36717 --- [greeting] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-10-21T10:42:44.089+09:00  WARN 36717 --- [greeting] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-10-21T10:42:44.113+09:00  INFO 36717 --- [greeting] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-21T10:42:44.133+09:00 ERROR 36717 --- [greeting] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2024-10-21T10:43:22.470+09:00  INFO 37465 --- [greeting] [           main] s.samdul.greeting.GreetingApplication    : Starting GreetingApplication v0.0.1-SNAPSHOT using Java 17.0.12 with PID 37465 (/home/oddsummer/code/java/greeting/build/libs/greeting-0.0.1-SNAPSHOT.jar started by oddsummer in /home/oddsummer/code/java/greeting)
+2024-10-21T10:43:22.478+09:00  INFO 37465 --- [greeting] [           main] s.samdul.greeting.GreetingApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-10-21T10:43:24.075+09:00  INFO 37465 --- [greeting] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-21T10:43:24.101+09:00  INFO 37465 --- [greeting] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-21T10:43:24.101+09:00  INFO 37465 --- [greeting] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-21T10:43:24.165+09:00  INFO 37465 --- [greeting] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-21T10:43:24.167+09:00  INFO 37465 --- [greeting] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1594 ms
+2024-10-21T10:43:24.377+09:00  INFO 37465 --- [greeting] [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-10-21T10:43:24.842+09:00  INFO 37465 --- [greeting] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-21T10:43:24.869+09:00  INFO 37465 --- [greeting] [           main] s.samdul.greeting.GreetingApplication    : Started GreetingApplication in 3.035 seconds (process running for 3.689)
+2024-10-21T10:43:25.677+09:00  INFO 37465 --- [greeting] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-21T10:43:25.678+09:00  INFO 37465 --- [greeting] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-21T10:43:25.680+09:00  INFO 37465 --- [greeting] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
