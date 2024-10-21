@@ -1,6 +1,6 @@
 #!/bin/bash
 
-JAR_FILE_NAME=greeting-0.0.1-SNAPSHOT.jar
+JAR_FILE_NAME=app.jar
 
 #Get the PID from the file
 PID=$(pgrep -f $JAR_FILE_NAME)
